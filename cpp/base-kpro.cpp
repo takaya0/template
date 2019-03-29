@@ -15,7 +15,8 @@
 using namespace std;
 
 using ll = long long;
-#define INF le9
-#define MOD le9 + 7
+#define INF 1e9
+#define MOD 1e9 + 7
 #define rep(i, n) for(int i = 0; i < n; i++)
 #define loop(i, a, n) for(int i = a; i < n; i++)
+#define all(in) in.begin(), in.end()
