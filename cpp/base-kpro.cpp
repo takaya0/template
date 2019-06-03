@@ -14,7 +14,7 @@
 
 using namespace std;
 
-using ll = long long;
+#define ll long long
 #define INF 1e9
 #define MOD 1e9 + 7
 #define rep(i, n) for(int i = 0; i < n; i++)
