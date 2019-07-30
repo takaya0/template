@@ -58,16 +58,6 @@ macro_rules! read_value {
         $next().parse::<$t>().expect("Parse error")
     };
 }
-fn gcd(mut a: i32, mut b: i32) -> i32 {
-    while b != 0 {
-        let r = a % b;
-        a = b; b = r;
-    }
-    a
-}
-fn lcm(x: i32, y: i32)->i32{
-    return x /gcd(x, y) * y;
-}
 fn solve() {
     let out = std::io::stdout();
     let mut out = BufWriter::new(out.lock());
