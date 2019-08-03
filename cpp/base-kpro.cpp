@@ -21,6 +21,6 @@ using namespace std;
 #define loop(i, a, n) for(int i = a; i < n; i++)
 #define all(in) in.begin(), in.end()
 int main(){
-    {{_cursor_}}
+     {{_cursor_}}
     return 0;
 }
