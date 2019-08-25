@@ -1,9 +1,11 @@
 #[allow(unused_imports)]
-use std::cmp::*;
-#[allow(unused_imports)]
-use std::collections::*;
-#[allow(unused_imports)]
 use std::cmp::{min, max};
+#[allow(unused_imports)]
+use std::collections::{HashSet,HashMap};
+#[allow(unused_imports)]
+use std::collections::{BTreeSet, BTreeMap};
+#[allow(unused_imports)]
+use std::collections::BinaryHeap;
 use std::io::{Write, BufWriter};
 // https://qiita.com/tanakh/items/0ba42c7ca36cd29d0ac8
 macro_rules! input {
@@ -63,7 +65,7 @@ fn main() {
     let mut out = BufWriter::new(out.lock());
     macro_rules! puts {
         ($($format:tt)*) => (write!(out,$($format)*).unwrap());
-    }
-    {{_cursor_}}
+    }{{_cursor_}}
+    
 }
 
