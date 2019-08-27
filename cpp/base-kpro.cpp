@@ -1,5 +1,6 @@
 #include <iostream>
 #include <math.h>
+#include <cmath>
 #include <string>
 #include <string.h>
 #include <algorithm>
@@ -14,9 +15,9 @@
 
 using namespace std;
 
+#define ll long long
 const ll INF = 1e9;
 const ll MOD = 1e9 + 7;
-#define ll long long
 #define rep(i, n) for(int i = 0; i < n; i++)
 #define loop(i, a, n) for(int i = a; i < n; i++)
 #define all(in) in.begin(), in.end()
